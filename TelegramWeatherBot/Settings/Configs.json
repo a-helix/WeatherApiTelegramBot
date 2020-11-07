@@ -1,6 +1,6 @@
 {
   "Url": "",
-  "ApiKey": "1311935608:AAF9tEcGO40hv42hlNP-Q9Y-CAE4Eq-h3hw",
+  "ApiKey": "",
   "Name": "reliable_weather_bot",
   "RabbitMQ": "localhoste",
   "RabbitLogin": "TelegramBot",
