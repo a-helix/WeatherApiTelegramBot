@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramWeatherBot", "TelegramWeatherBot\TelegramWeatherBot.csproj", "{A9D0C855-E222-40AF-9131-450DE35DFA33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramWeatherBot", "TelegramWeatherBot\TelegramWeatherBot.csproj", "{A9D0C855-E222-40AF-9131-450DE35DFA33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72C027CF-B133-4446-B097-0E5A2D604783} = {72C027CF-B133-4446-B097-0E5A2D604783}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitChat", "RabbitChat\RabbitChat\RabbitChat.csproj", "{72C027CF-B133-4446-B097-0E5A2D604783}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Credentials", "Credentials\Credentials.csproj", "{DAFBD443-A370-47CA-86C1-96A1FA01A007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{A9D0C855-E222-40AF-9131-450DE35DFA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D0C855-E222-40AF-9131-450DE35DFA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D0C855-E222-40AF-9131-450DE35DFA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C027CF-B133-4446-B097-0E5A2D604783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C027CF-B133-4446-B097-0E5A2D604783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C027CF-B133-4446-B097-0E5A2D604783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C027CF-B133-4446-B097-0E5A2D604783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
