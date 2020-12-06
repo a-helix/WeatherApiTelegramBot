@@ -9,8 +9,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Credentials\Credentials.csproj" />
+    <ProjectReference Include="..\Credentials\Credentials\Credentials.csproj" />
     <ProjectReference Include="..\RabbitChat\RabbitChat\RabbitChat.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="build.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

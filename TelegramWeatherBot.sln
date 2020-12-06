@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramWeatherBot", "Teleg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitChat", "RabbitChat\RabbitChat\RabbitChat.csproj", "{72C027CF-B133-4446-B097-0E5A2D604783}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Credentials", "Credentials\Credentials.csproj", "{DAFBD443-A370-47CA-86C1-96A1FA01A007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Credentials", "Credentials\Credentials\Credentials.csproj", "{7933A884-D260-4116-A075-77B9CD49E047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +26,10 @@ Global
 		{72C027CF-B133-4446-B097-0E5A2D604783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C027CF-B133-4446-B097-0E5A2D604783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C027CF-B133-4446-B097-0E5A2D604783}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAFBD443-A370-47CA-86C1-96A1FA01A007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7933A884-D260-4116-A075-77B9CD49E047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7933A884-D260-4116-A075-77B9CD49E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7933A884-D260-4116-A075-77B9CD49E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7933A884-D260-4116-A075-77B9CD49E047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
