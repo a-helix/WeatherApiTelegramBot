@@ -2,7 +2,7 @@
   "Url": "",
   "ApiKey": "",
   "Name": "reliable_weather_bot",
-  "RabbitMQ": "localhoste",
+  "RabbitMQ": "localhost",
   "RabbitLogin": "TelegramBot",
   "RabbitPassword": "TelegramBot",
   "RabbitQueue": "WeatherApi"
