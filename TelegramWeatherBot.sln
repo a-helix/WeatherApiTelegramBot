@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitChat", "RabbitChat\Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Credentials", "Credentials\Credentials\Credentials.csproj", "{7933A884-D260-4116-A075-77B9CD49E047}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deploy", "Deploy\Deploy.csproj", "{198DB56E-1133-4728-BBB0-7AFC51005BCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{7933A884-D260-4116-A075-77B9CD49E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7933A884-D260-4116-A075-77B9CD49E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7933A884-D260-4116-A075-77B9CD49E047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198DB56E-1133-4728-BBB0-7AFC51005BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198DB56E-1133-4728-BBB0-7AFC51005BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198DB56E-1133-4728-BBB0-7AFC51005BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198DB56E-1133-4728-BBB0-7AFC51005BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
