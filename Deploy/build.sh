@@ -11,5 +11,7 @@ dotnet build TelegramWeatherBot.sln -c Release -o "src/"
 echo "TelegramWeatherBot has been built."
 echo "Building container...."
 cd Deploy
+sudo mv Dockerfile ..
+cd ..
 docker build Dockerfile -t bot
 echo "Container has been built."
