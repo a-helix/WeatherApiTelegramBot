@@ -13,5 +13,5 @@ echo "Building container...."
 cd Deploy
 sudo mv Dockerfile ..
 cd ..
-sudo docker build -t bot .
+sudo docker build -t bot . .
 echo "Container has been built."
