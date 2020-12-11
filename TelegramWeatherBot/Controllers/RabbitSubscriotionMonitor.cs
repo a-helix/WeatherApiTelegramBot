@@ -19,7 +19,7 @@ namespace TelegramWeatherBot.Controllers
                 _config.Value("RabbitPassword").ToString()
                 );
             _queueKey = _config.Value("RabbitQueue").ToString();
-            _bot = new Bot();
+            //_bot = new Bot();
         }
 
         public void ListenQueue()
@@ -29,8 +29,8 @@ namespace TelegramWeatherBot.Controllers
                 string feedback = _consumer.ReceiveQueue(_queueKey);
                 if (feedback == null)
                     continue;
-//Fix it
-                _bot.SendTextMessage("@blablavla", "test message");
+                //Fix it
+                //_bot.SendTextMessage("@blablavla", "test message");
             }
         }
     }
