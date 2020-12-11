@@ -11,8 +11,7 @@ namespace TelegramWeatherBot.Models
     {
         private TelegramBotClient _client;
         private List<Command> commandsList;
-        private static string _configPath = Path.Join("Configs", "ApiConfigs.json");
-        private JsonFileContent _configs = new JsonFileContent(_configPath);
+        private JsonFileContent _configs = new JsonFileContent("ApiConfigs.json");
 
         public IReadOnlyList<Command> Commands { get => commandsList.AsReadOnly(); }
 
